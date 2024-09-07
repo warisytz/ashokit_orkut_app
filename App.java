@@ -12,6 +12,8 @@ public class App {
     ApplicationContext context = new ClassPathXmlApplicationContext("Beans.xml");
     Car car=context.getBean(Car.class);
     car.drive();
+
+///////WARISH
 	
 	}
 
